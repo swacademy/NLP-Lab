@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<doc>
+    <branch name="testing" hash="lcdfo45c">
+        text, source
+    </branch> 
+    <branch name="release01" hash="f200013e">
+        test processing
+        <sub-branch name="subrelease01">
+            xml, sgml, html
+        </sub-branch>
+    </branch>
+    <branch name="invalid">
+        xml parsing
+    </branch>
+</doc>
