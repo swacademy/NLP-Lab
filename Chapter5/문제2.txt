@@ -1,0 +1,24 @@
+Lab. 기상청 동네예보사이트의 역삼1동 데이터를 DataFrame에 저장하기
+
+1. 각 Parameter 정보보기 : http://www.kma.go.kr/images/weather/lifenindustry/timeseries_XML.pdf
+
+2. 지역 : 역삼1동(zone = 1168064000)
+
+3. URL
+    'http://www.kma.go.kr/wid/queryDFSRSS.jsp'
+
+4. DataFrame 에 담을 정보
+  1)시간(hour)
+  2)온도(temp)
+  3)최고온도(tmx)
+  4)최저온도(tmn)
+  5)하늘상태(sky)
+  6)강수상태(pty)
+  7)날씨한국어(wfKor)
+  8)날씨영어(wfEn)
+
+
+5. 사용할 module
+	1)requests
+	2)Pandas
+	3)xml.etree.ElementTree
