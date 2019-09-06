@@ -1,0 +1,19 @@
+﻿BeautifulSoup Exercise
+
+Task1. yes24의 국내도서 베스트셀러 Top20을 DataFrame에 저장한다.
+     1)http://www.yes24.com/24/category/bestseller?CategoryNumber=001
+     2)저장요소는 책제목, 저자, 출판사, 가격이다.
+
+
+Task2. Task1에서 저장한 DataFrame의 각 값들을 sqlite3에 table로 저장하기
+     filename : yes24.db
+     tablename : BestSeller
+
+     idx              INT   
+     title             TEXT
+     author        TEXT
+     publisher    TEXT
+     price           INT
+
+
+
